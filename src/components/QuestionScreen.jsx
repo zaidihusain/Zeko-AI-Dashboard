@@ -1,8 +1,6 @@
-"use client"; // Add this line at the top
-
 export default function QuestionScreen({ question, onNext }) {
     const playAudio = () => {
-      const audio = new Audio("/sample-question.mp3"); // Replace with actual audio
+      const audio = new Audio("/sample-question.mp3"); // Ensure the path to the audio file is correct
       audio.play();
     };
   

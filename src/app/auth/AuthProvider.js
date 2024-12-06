@@ -1,4 +1,5 @@
 
+
 "use client"; // Ensure client-side compatibility for hooks
 
 import { Auth0Provider } from "@auth0/auth0-react";
